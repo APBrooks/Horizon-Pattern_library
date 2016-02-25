@@ -1,0 +1,67 @@
+.container-fluid {
+  color: #484848;
+  font-size: 13px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: 300;*/
+  /*@media (min-width: 1200px) {
+  	width: 1020px;
+  }*/ }
+  .container-fluid a {
+    font-weight: normal; }
+
+/* Typo */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #484848;
+  font-weight: 300; }
+
+h1, .h1 {
+  font-size: 33px; }
+
+h2, .h2 {
+  font-size: 27px; }
+
+h3, .h3 {
+  font-size: 23px;
+  font-style: italic; }
+
+h4, .h4 {
+  font-size: 17px; }
+
+h5, .h5 {
+  font-size: 13px; }
+
+h6, .h6 {
+  font-size: 12px; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
+.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small,
+h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
+.h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+  color: #555555; }
+
+.sr-only {
+  color: #000; }
+
+a {
+  color: #337ab7; }
+
+.k-widget {
+  margin-bottom: 10px; }
+
+.example {
+  padding: 18px 15px;
+  margin: 54px 0 48px;
+  border-bottom: 1px dashed #b1e0ec;
+  position: relative; }
+
+.example:before {
+  content: "Example";
+  top: -30px;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 0; }
+
+/*# sourceMappingURL=pattern-lib.css.map */

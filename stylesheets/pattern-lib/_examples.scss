@@ -1,0 +1,15 @@
+.example {
+    padding: 18px 15px;
+    margin: 54px 0 48px;
+    border-bottom: 1px dashed #b1e0ec;
+    position: relative;
+}
+.example:before {
+    content: "Example";
+    top: -30px;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 0;
+}
