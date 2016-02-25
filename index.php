@@ -64,7 +64,9 @@
     </script>
   </head>
   <body>
+    <?php include 'includes/top_nav.inc.php'; ?>
     <div class="container-fluid">
+
       <div class="row">
         <!-- LEFT NAV -->
         <?php include 'includes/left_nav.inc.php'; ?>
