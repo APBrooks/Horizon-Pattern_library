@@ -4,7 +4,8 @@
     border-bottom: 1px dashed #b1e0ec;
     position: relative;
 }
-.example:before {
+.example:before,
+.notes:before {
     content: "Example";
     top: -30px;
     font-weight: 500;
@@ -12,4 +13,8 @@
     text-transform: capitalize;
     position: absolute;
     left: 0;
+}
+.notes:before {
+    content: "Notes";
+    top: 0;
 }
