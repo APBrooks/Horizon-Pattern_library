@@ -72,7 +72,7 @@
         <?php include 'includes/left_nav.inc.php'; ?>
 
         <!-- MAIN CONTENT -->
-        <div class="col-md-10">
+        <div class="col-md-9">
           <div class="row">
             <div class="col-md-12">
               <h1>Form Elements</h1>

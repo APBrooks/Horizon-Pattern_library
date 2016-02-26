@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="_alerts.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939196447" remote="131009573940000000" Dst="1" />
+<file name="_badges.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939226447" remote="131009573940000000" Dst="1" />
+<file name="_breadcrumbs.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939256447" remote="131009573940000000" Dst="1" />
+<file name="_button-groups.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939296447" remote="131009573940000000" Dst="1" />
+<file name="_buttons.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939336447" remote="131009573940000000" Dst="1" />
+<file name="_carousel.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939376447" remote="131009573940000000" Dst="1" />
+<file name="_close.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939416447" remote="131009573940000000" Dst="1" />
+<file name="_code.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939476447" remote="131009573940000000" Dst="1" />
+<file name="_component-animations.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939516447" remote="131009573940000000" Dst="1" />
+<file name="_dropdowns.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939566447" remote="131009573940000000" Dst="1" />
+<file name="_forms.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939596447" remote="131009573940000000" Dst="1" />
+<file name="_glyphicons.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939646447" remote="131009573940000000" Dst="1" />
+<file name="_grid.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939686447" remote="131009573940000000" Dst="1" />
+<file name="_input-groups.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939716447" remote="131009573940000000" Dst="1" />
+<file name="_jumbotron.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939756447" remote="131009573940000000" Dst="1" />
+<file name="_labels.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939806447" remote="131009573940000000" Dst="1" />
+<file name="_list-group.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939846447" remote="131009573940000000" Dst="1" />
+<file name="_media.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939896447" remote="131009573940000000" Dst="1" />
+<file name="_mixins.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939916447" remote="131009573940000000" Dst="1" />
+<file name="_modals.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939976447" remote="131009573940000000" Dst="1" />
+<file name="_navbar.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940016447" remote="131009573940000000" Dst="1" />
+<file name="_navs.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940056447" remote="131009573940000000" Dst="1" />
+<file name="_normalize.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940086447" remote="131009573940000000" Dst="1" />
+<file name="_pager.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940146447" remote="131009573940000000" Dst="1" />
+<file name="_pagination.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940216447" remote="131009573940000000" Dst="1" />
+<file name="_panels.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940246447" remote="131009573940000000" Dst="1" />
+<file name="_popovers.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940296447" remote="131009573940000000" Dst="1" />
+<file name="_print.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940326447" remote="131009573940000000" Dst="1" />
+<file name="_progress-bars.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940366447" remote="131009573940000000" Dst="1" />
+<file name="_responsive-embed.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940396447" remote="131009573940000000" Dst="1" />
+<file name="_responsive-utilities.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940436447" remote="131009573940000000" Dst="1" />
+<file name="_scaffolding.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940496447" remote="131009573940000000" Dst="1" />
+<file name="_tables.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914940536447" remote="131009573940000000" Dst="1" />
+<file name="_theme.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914951076447" remote="131009573940000000" Dst="1" />
+<file name="_thumbnails.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914951116447" remote="131009573940000000" Dst="1" />
+<file name="_tooltip.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914951736447" remote="131009573940000000" Dst="1" />
+<file name="_type.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914951896447" remote="131009573940000000" Dst="1" />
+<file name="_utilities.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914951966447" remote="131009573940000000" Dst="1" />
+<file name="_variables.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914952006447" remote="131009573940000000" Dst="1" />
+<file name="_wells.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914952136447" remote="131009573940000000" Dst="1" />
+</dwsync>
