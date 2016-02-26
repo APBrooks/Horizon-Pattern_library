@@ -13,6 +13,7 @@
 		<div id="collapseForms" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 			  
 			  <a href="multiselect-kendo.php" class="list-group-item <?php if ($section == "MultiSelect") { echo "active";} ?>">MultiSelect - Kendo</a>
+			  <a href="droplistcustom-kendo.php" class="list-group-item <?php if ($section == "DroplistCustom") { echo "active";} ?>">DropDownList Custom template - Kendo</a>
 	    </div>
 	    <a role="button" class="list-group-item closed" data-toggle="collapse" data-parent="#accordion" href="#collapseGrids" aria-expanded="false" aria-controls="collapseGrids">
           Tables / Grids <span class="fa fa-angle-right fa-pull-right"></span>

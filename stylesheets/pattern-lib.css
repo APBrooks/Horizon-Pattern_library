@@ -82,6 +82,10 @@ a {
   color: #fff;
   background-color: #337ab7;
   border-color: #337ab7; }
+.left-nav .list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px; }
 
 .k-widget {
   margin-bottom: 10px; }
@@ -111,6 +115,13 @@ a {
 .notes:before {
   content: "Notes";
   top: 0; }
+
+.demo-hint {
+  line-height: 22px;
+  color: #aaa;
+  font-style: italic;
+  font-size: .9em;
+  padding-top: 1em; }
 
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
