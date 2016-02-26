@@ -15,9 +15,29 @@ function accordSwitcher() {
 		};
 	});
 }
+function leftNavPersistence() {
+	if ($('.left-nav .collapse a').hasClass('active')) {
+		$('.left-nav .collapse a.active').parent().addClass('in');
+		var collapser = $('.left-nav .collapse a.active').parent().prevAll('a[data-toggle="collapse"]:first');
+		if (collapser.hasClass('closed')) {
+			collapser.removeClass('closed');
+			collapser.addClass('open');
+			collapser.children('.fa').removeClass('fa-angle-right');
+			collapser.children('.fa').addClass('fa-angle-down');
+		} else {
+			collapser.removeClass('open');
+			collapser.addClass('closed');
+			collapser.children('.fa').removeClass('fa-angle-down');
+			collapser.children('.fa').addClass('fa-angle-right');
+		};
+	};
+}
 
 // Document ready
 $(document).ready(function() {
+	
+	// Open Nav accordion if needed
+	leftNavPersistence();
 	// accordion icon switcher
 	accordSwitcher();
 
