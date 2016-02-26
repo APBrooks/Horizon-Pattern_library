@@ -1,3 +1,14 @@
 .k-widget {
 	margin-bottom: 10px;
 }
+
+// Grid hide vert scroll bars
+.k-grid .k-grid-header
+{
+   padding: 0 !important;
+}
+
+.k-grid .k-grid-content
+{
+   overflow-y: visible;
+}

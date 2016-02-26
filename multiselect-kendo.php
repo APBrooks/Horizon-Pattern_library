@@ -1,3 +1,6 @@
+<?php
+$section = 'MultiSelect';
+?>
 <?php include 'includes/head.inc.php'; ?>
     <script>
         $(document).ready(function() {
