@@ -5,7 +5,7 @@
 <!-- LEFT NAV -->
 <div class="col-md-3 left-nav">
 	<div class="list-group" id="accordion" role="tablist" aria-multiselectable="true">
-		<a href="#" class="list-group-item <?php if ($section == "grid") { echo "active";} ?>">Grid System</a>
+		<a href="index.php" class="list-group-item <?php if ($section == "grid") { echo "active";} ?>">Grid System</a>
 		<a role="button" class="list-group-item closed" data-toggle="collapse" data-parent="#accordion" href="#collapseForms" aria-expanded="false" aria-controls="collapseForms">
           Form Elements <span class="fa fa-angle-right fa-pull-right"></span>
         </a>
