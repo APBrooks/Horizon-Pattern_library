@@ -4,7 +4,7 @@ $section = 'DroplistCustom';
 <?php include 'includes/head.inc.php'; ?>
     <script>
       $(document).ready(function() {
-        $("#customers").kendoDropDownList({
+        $("#jobtype").kendoDropDownList({
             dataTextField: "ContactName",
             dataValueField: "CustomerID",
             headerTemplate: '<div class="dropdown-header k-widget k-header">' +
@@ -24,7 +24,26 @@ $section = 'DroplistCustom';
             height: 400
         });
 
-        var dropdownlist = $("#customers").data("kendoDropDownList");
+        var dropdownlist = $("#jobtype").data("kendoDropDownList");
+
+        $("#stdjob").kendoDropDownList({
+            filter: "contains",
+            headerTemplate: '<div class="dropdown-header k-widget k-header">' +
+                    '<span>Photo</span>' +
+                    '<span>Contact info</span>' +
+                '</div>',
+            dataTextField: "ProductName",
+            dataValueField: "ProductID",
+            dataSource: {
+                type: "odata",
+                serverFiltering: true,
+                transport: {
+                    read: {
+                        url: "//demos.telerik.com/kendo-ui/service/Northwind.svc/Products",
+                    }
+                }
+            }
+        });
       });
     </script>
   </head>
@@ -44,9 +63,9 @@ $section = 'DroplistCustom';
                 <div class="row">
                   <div class="col-md-4">
 
-                    <div class="demo-section k-content">
-                        <h4>Customers</h4>
-                        <input id="customers" style="width: 100%;"/>
+                    <div class="k-content">
+                        <label for="jobtype">Job type</label>
+                        <input id="jobtype" name="jobtype" style="width: 100%;"/>
                         <p class="demo-hint">
                             Open the DropDownList to see the customized appearance.
                         </p>
@@ -131,6 +150,8 @@ $section = 'DroplistCustom';
 
                   </div>
                 </div>
+
+                
                 
               </div>
             </div>
@@ -139,21 +160,40 @@ $section = 'DroplistCustom';
             <div class="col-md-6">
               <pre>
                 <code class="language-html" data-lang="html">
-&lt;div id=&quot;grid&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;k-content&quot;&gt;
+    &lt;label for=&quot;jobtype&quot;&gt;Job type&lt;/label&gt;
+    &lt;input id=&quot;jobtype&quot; name=&quot;jobtype&quot; style=&quot;width: 100%;&quot;/&gt;
+    &lt;p class=&quot;demo-hint&quot;&gt;
+        Open the DropDownList to see the customized appearance.
+    &lt;/p&gt;
+&lt;/div&gt;
                 </code>
                 <code class="language-js" datalang="javascript">
 $(document).ready(function() {
-  $("#grid").kendoGrid({
-    dataSource: {
-        pageSize: 5
-    },
-    scrollable: true,
-    sortable: true,
-    pageable: {
-        refresh: true,
-        buttonCount: 5
-    }
-  });
+    $("#jobtype").kendoDropDownList({
+            dataTextField: "ContactName",
+            dataValueField: "CustomerID",
+            headerTemplate: '<div class="dropdown-header k-widget k-header">' +
+                    
+                    '<span>Contact info</span>' +
+                '</div>',
+            valueTemplate: '<span>#:data.CompanyName#</span> - <span>#:data.ContactName#</span>',
+            template: '<span class="k-state-default">
+                            <h3>#: data.ContactName #</h3>
+                            <p>#: data.CompanyName #</p>
+                        </span>',
+            dataSource: {
+                transport: {
+                    read: {
+                        dataType: "jsonp",
+                        url: "//demos.telerik.com/kendo-ui/service/Customers",
+                    }
+                }
+            },
+            height: 400
+        });
+
+    var dropdownlist = $("#jobtype").data("kendoDropDownList");
 });
                 </code>
               </pre>
@@ -164,6 +204,72 @@ $(document).ready(function() {
             </div>
           </div>
           <!-- end of Row -->
+
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Form Elements</h1>
+              <h3>DropDownList / Customizing templates &amp; Server filtering</h3>
+              <!-- Kendo MultiSelect -->
+              <div class="example">
+                <div class="row">
+                  <div class="col-md-4">
+
+                    <div class="k-content">
+                        <label for="stdjob">Standard job (optional)</label>
+                        <input id="stdjob" name="stdjob" style="width: 100%;"/>
+                        <p class="demo-hint">
+                            Open the DropDownList to see the customized appearance.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+
+                
+                
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <pre>
+                <code class="language-html" data-lang="html">
+&lt;div class=&quot;k-content&quot;&gt;
+    &lt;label for=&quot;stdjob&quot;&gt;Standard job (optional)&lt;/label&gt;
+    &lt;input id=&quot;stdjob&quot; name=&quot;stdjob&quot; style=&quot;width: 100%;&quot;/&gt;
+    &lt;p class=&quot;demo-hint&quot;&gt;
+        Open the DropDownList to see the customized appearance.
+    &lt;/p&gt;
+&lt;/div&gt;
+                </code>
+                <code class="language-js" datalang="javascript">
+$("#stdjob").kendoDropDownList({
+    filter: "contains",
+    headerTemplate: '<div class="dropdown-header k-widget k-header">' +
+            '<span>Photo</span>' +
+            '<span>Contact info</span>' +
+        '</div>',
+    dataTextField: "ProductName",
+    dataValueField: "ProductID",
+    dataSource: {
+        type: "odata",
+        serverFiltering: true,
+        transport: {
+            read: {
+                url: "//demos.telerik.com/kendo-ui/service/Northwind.svc/Products",
+            }
+        }
+    }
+});
+                </code>
+              </pre>
+            </div>
+            <!-- end of code -->
+            <div class="col-md-6">
+              <div class="notes"></div>
+            </div>
+          </div>
+          <!-- end of Row -->
+
         </div>
         <!-- end of col-md-9 -->
 

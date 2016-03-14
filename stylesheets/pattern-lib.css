@@ -116,12 +116,27 @@ a {
   content: "Notes";
   top: 0; }
 
+.notes {
+  padding: 30px 0 0; }
+
 .demo-hint {
   line-height: 22px;
   color: #aaa;
   font-style: italic;
   font-size: .9em;
   padding-top: 1em; }
+
+.demo-grid {
+  height: 65px;
+  background-color: #5bc0de; }
+  .demo-grid .grid-content {
+    height: 65px;
+    background-color: #337ab7;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 0; }
 
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
