@@ -12,3 +12,10 @@
 {
    overflow-y: visible;
 }
+
+// Switch - disabled switch : hover
+.km-switch-disabled {
+	&:hover {
+		cursor: not-allowed;
+	}
+}

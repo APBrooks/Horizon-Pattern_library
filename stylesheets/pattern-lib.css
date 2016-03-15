@@ -96,6 +96,9 @@ a {
 .k-grid .k-grid-content {
   overflow-y: visible; }
 
+.km-switch-disabled:hover {
+  cursor: not-allowed; }
+
 .example {
   padding: 18px 15px;
   margin: 54px 0 48px;

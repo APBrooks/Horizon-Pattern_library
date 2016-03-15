@@ -34,7 +34,7 @@ $section = 'GridBasic';
         <div class="col-md-9">
           <div class="row">
             <div class="col-md-12">
-              <h1>Form Elements</h1>
+              <h1>Tables (kendo grids)</h1>
               <h3>Grid / Basic usage (with pagination and horizontal scolling)</h3>
               <!-- Kendo MultiSelect -->
               <div class="example">
