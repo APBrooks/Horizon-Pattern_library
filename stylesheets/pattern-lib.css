@@ -141,6 +141,50 @@ a {
     line-height: 25px;
     padding: 20px 0; }
 
+.accordion-panel-group .panel-heading {
+  padding: 6px 15px; }
+.accordion-panel-group .panel-title a {
+  line-height: 24px; }
+.accordion-panel-group .panel-title .icon-container {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center; }
+  .accordion-panel-group .panel-title .icon-container.icon-container-primary {
+    color: #fff;
+    background-color: #337ab7; }
+  .accordion-panel-group .panel-title .icon-container.icon-container-default {
+    color: #333;
+    background-color: #fff;
+    border: solid 1px #ccc; }
+.accordion-panel-group .panel-body .btn {
+  margin-top: 10px; }
+
+.modal-warning .modal-header {
+  border-bottom: none;
+  text-align: center; }
+.modal-warning .modal-body {
+  text-align: center; }
+  .modal-warning .modal-body .fa {
+    font-size: 48px; }
+  .modal-warning .modal-body strong span {
+    color: #d9534f; }
+.modal-warning .modal-footer {
+  text-align: center;
+  border-top: none; }
+  .modal-warning .modal-footer .btn {
+    width: 110px; }
+
+.assess-pane {
+  border: solid 1px #ccc; }
+  .assess-pane ul.residents-ul {
+    list-style-type: none;
+    padding: 0; }
+  .assess-pane p.in-arrears {
+    color: #d9534f; }
+
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

@@ -1,0 +1,12 @@
+.assess-pane {
+	border: solid 1px #ccc;
+
+	ul.residents-ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	p.in-arrears {
+		color: $brand-danger;
+	}
+}

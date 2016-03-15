@@ -1,0 +1,24 @@
+.modal-warning {
+	.modal-header {
+		border-bottom: none;
+		text-align: center;
+	}
+	.modal-body {
+		text-align: center;
+		
+		.fa {
+			font-size: 48px;
+		}
+		strong span {
+			color: $brand-danger;
+		}
+	}
+	.modal-footer {
+		text-align: center;
+		border-top: none;
+
+		.btn {
+			width: 110px;
+		}
+	}
+}

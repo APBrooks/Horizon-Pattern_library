@@ -1,0 +1,34 @@
+// Accordion Title Icon bubble
+.accordion-panel-group {
+	.panel-heading {
+		padding: 6px 15px;
+	}
+	.panel-title {
+		a {
+			line-height: 24px;
+		}
+		.icon-container {
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			border-radius: 50%;
+			margin-right: 10px;
+			text-align: center;
+
+			&.icon-container-primary {
+				color: #fff;
+				background-color: $brand-primary;
+			}
+			&.icon-container-default {
+			    color: #333;
+			    background-color: #fff;
+			    border: solid 1px #ccc;
+			}
+		}
+	}
+	.panel-body {
+		.btn {
+			margin-top: 10px;
+		}
+	}
+}

@@ -41,10 +41,10 @@ $(document).ready(function() {
 	// accordion icon switcher
 	accordSwitcher();
 	// Restrict Accordion to one panel
-	// $('#accordion1').on('show.bs.collapse', function () {
- //        $('#accordion1 .in').collapse('hide');
- //        console.log('Accordion pressed');
- //    });
+	$('#accordion1').on('show.bs.collapse', function () {
+        $('#accordion1 .in').collapse('hide');
+        console.log('Accordion pressed');
+    });
 
 	// on resize window call functions
 });
