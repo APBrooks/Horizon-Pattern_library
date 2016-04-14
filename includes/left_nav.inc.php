@@ -28,6 +28,7 @@
 			  <a href="gridbasic-kendo.php" class="list-group-item <?php if ($section == "GridBasic") { echo "active";} ?>">* Grid / Basic usage - Kendo</a>
 			  <a href="gridtemplate-kendo.php" class="list-group-item <?php if ($section == "GridTemplate") { echo "active";} ?>">* Grid / Detail template - Kendo</a>
 			  <a href="gridedit-kendo.php" class="list-group-item <?php if ($section == "GridEdit") { echo "active";} ?>">* Grid / Editing custom editor - Kendo</a>
+			  <a href="gridpopedit-kendo.php" class="list-group-item <?php if ($section == "GridPopEdit") { echo "active";} ?>">* Grid / Popup editing - Kendo</a>
 			  <a href="gridselect-kendo.php" class="list-group-item <?php if ($section == "GridSelect") { echo "active";} ?>">* Grid / Selection - Kendo</a>
 			  <a href="gridtooltip-kendo.php" class="list-group-item <?php if ($section == "GridTooltip") { echo "active";} ?>">* Grid / with Tooltip - Kendo</a>
 	    </div>

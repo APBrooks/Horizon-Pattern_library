@@ -4,5 +4,7 @@
 <file name="bootstrap.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938226447" remote="131009573930000000" Dst="1" />
 <file name="bootstrap.min.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938276447" remote="131009573930000000" Dst="1" />
 <file name="kendo.all.min.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914990466447" remote="131009573930000000" Dst="1" />
-<file name="pattern-lb.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131009778880198314" remote="131012122780000000" Dst="1" />
+<file name="pattern-lb.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025093732191102" remote="131030366800000000" Dst="1" />
+<file name="orders.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024278458469839" remote="131030366800000000" Dst="1" />
+<file name="products.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024262098982151" remote="131030366800000000" Dst="1" />
 </dwsync>

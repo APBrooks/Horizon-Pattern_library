@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name=".gitattributes" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914910236447" remote="131009573930000000" Dst="1" />
-<file name="index.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131015848552583093" remote="131019090690000000" Dst="1" />
+<file name="index.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024241329675622" remote="131030366790000000" Dst="1" />
 <file name="README.md" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914867076447" remote="131009573930000000" Dst="1" />
 <file name="test.txt" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914922546447" remote="131009573950000000" Dst="1" />
 <file name="droplistcustom-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131018292723815633" remote="131019090650000000" Dst="1" />
-<file name="gridbasic-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131018270035584189" remote="131019090660000000" Dst="1" />
+<file name="gridbasic-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024270791363873" remote="131030366790000000" Dst="1" />
 <file name="multiselect-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131009761786989415" remote="131012122780000000" Dst="1" />
-<file name="datetime-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131018439473927125" remote="131019090640000000" Dst="1" />
-<file name="gridtemplate-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131018446530022664" remote="131019090670000000" Dst="1" />
+<file name="datetime-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131020012679476796" remote="131030366790000000" Dst="1" />
+<file name="gridtemplate-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024418491648422" remote="131030366790000000" Dst="1" />
 <file name="upload-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131018436519961758" remote="131019090750000000" Dst="1" />
+<file name="accordion.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025119326981790" remote="131030366790000000" Dst="1" />
+<file name="assess-pane.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025218693253279" remote="131030366790000000" Dst="1" />
+<file name="gridedit-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131026979745487739" remote="131030366790000000" Dst="1" />
+<file name="gridpopedit-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131026982055371611" remote="131030366790000000" Dst="1" />
+<file name="gridselect-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024436539271485" remote="131030366790000000" Dst="1" />
+<file name="gridtooltip-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024409858307422" remote="131030366790000000" Dst="1" />
+<file name="modal-warning.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025166155132370" remote="131030366800000000" Dst="1" />
+<file name="products.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024269040147631" remote="131030366800000000" Dst="1" />
+<file name="switch-kendo.php" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024323625635702" remote="131030366810000000" Dst="1" />
 </dwsync>
