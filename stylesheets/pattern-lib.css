@@ -185,6 +185,75 @@ a {
   .assess-pane p.in-arrears {
     color: #d9534f; }
 
+.popout__container {
+  width: 300px;
+  height: 400px;
+  background-color: #e8e6e5;
+  border-radius: 4px;
+  border: 1px solid #3f4344;
+  box-shadow: 4px 4px 4px #bbbbbb; }
+
+.popout__container:after {
+  left: 225px;
+  top: 0%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(102, 114, 181, 0);
+  border-bottom-color: #3f4344;
+  border-width: 12px;
+  border-left-width: 12px;
+  margin-top: -24px; }
+
+.popout__header {
+  height: 38px;
+  padding: 10px;
+  background-color: #fbfbfa;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px; }
+  .popout__header h1, .popout__header h2, .popout__header h3, .popout__header h4, .popout__header h5, .popout__header h6,
+  .popout__header .h1, .popout__header .h2, .popout__header .h3, .popout__header .h4, .popout__header .h5, .popout__header .h6 {
+    margin: 0; }
+
+.popout__footer {
+  height: 15px;
+  background-color: #fbfbfa;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+.popout__body {
+  height: 345px;
+  overflow-y: scroll; }
+
+ul.popout__list {
+  list-style: none;
+  padding: 0;
+  margin: 10px; }
+  ul.popout__list .popout__list-item {
+    padding: 0;
+    background-color: #fbfbfa;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px; }
+  ul.popout__list .popout__list-item__header {
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid #cccccc; }
+    ul.popout__list .popout__list-item__header p {
+      margin: 0; }
+  ul.popout__list .popout__list-item__detail {
+    padding: 10px; }
+  ul.popout__list .popout__list-item__link,
+  ul.popout__list .popout__list-item__itemlink {
+    display: block; }
+  ul.popout__list .popout__list-item__itemlink {
+    margin: -10px;
+    padding: 10px; }
+
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

@@ -12,7 +12,7 @@
           Form Elements <span class="fa fa-angle-right fa-pull-right"></span>
         </a>		
 		<div id="collapseForms" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-			  
+			  <a href="buttons.php" class="list-group-item <?php if ($section == "buttons") { echo "active";} ?>">* Buttons</a>
 			  <a href="multiselect-kendo.php" class="list-group-item <?php if ($section == "MultiSelect") { echo "active";} ?>">* MultiSelect - Kendo</a>
 			  <a href="droplistcustom-kendo.php" class="list-group-item <?php if ($section == "DroplistCustom") { echo "active";} ?>">* DropDownList / Custom template - Kendo</a>
 			  <a href="upload-kendo.php" class="list-group-item <?php if ($section == "Upload") { echo "active";} ?>">* Upload - Kendo</a>
@@ -42,6 +42,7 @@
 	    </div>
 
 	    <a href="assess-pane.php" class="list-group-item <?php if ($section == "assess-pane") { echo "active";} ?>">Assess Pane</a>
+	    <a href="warn-attr_popout.php" class="list-group-item <?php if ($section == "warn-attr") { echo "active";} ?>">Warning/Advisories Popout</a>
 	</div>
 	
 </div>

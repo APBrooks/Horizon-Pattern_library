@@ -6,12 +6,25 @@
 //
 $font-family:           "Lato","Helvetica Neue", Helvetica, Arial, sans-serif !default;
 //== Colors
+
+//== Horizon Colours from Styleguide
+// Greyscales
+$blackish:              #232525 !default;
+$slated:                #343738 !default;
+$smoking:               #3f4344 !default;
+$foggiest:              #bbbbbb !default;
+$greydium:              #cccccc !default;
+$puffa:                 #e8e6e5 !default;
+$misty:                 #f3f3f2 !default;
+$wisp:                  #fbfbfa !default;
+
 //
 $brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
+
 //## Gray and brand colors for use across Bootstrap.
 $gray-base:              #000 !default;
 $gray-darker:            lighten($gray-base, 13.5%) !default; // #222

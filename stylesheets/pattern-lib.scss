@@ -11,9 +11,11 @@
 @import "pattern-lib/grid-system";
 @import "pattern-lib/accordion";
 @import "pattern-lib/modal";
+@import "pattern-lib/buttons";
 
 // Log job patterns
 @import "pattern-lib/assess-pane";
+@import "pattern-lib/popout--assess-pane";
 
 // Font Awesome CSS
 @import "font-awesome/font-awesome.scss";
