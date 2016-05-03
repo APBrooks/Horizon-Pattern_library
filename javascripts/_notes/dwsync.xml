@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="bootstrap-sprockets.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938186447" remote="131009537930000000" Dst="2" />
-<file name="bootstrap.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938226447" remote="131009537930000000" Dst="2" />
-<file name="bootstrap.min.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938276447" remote="131009537930000000" Dst="2" />
-<file name="kendo.all.min.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914990466447" remote="131009537930000000" Dst="2" />
-<file name="pattern-lb.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025093732191102" remote="131030330800000000" Dst="2" />
-<file name="orders.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024278458469839" remote="131030330800000000" Dst="2" />
-<file name="products.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024262098982151" remote="131030330800000000" Dst="2" />
+<file name="bootstrap-sprockets.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938180000" remote="131067396760000000" Dst="2" />
+<file name="bootstrap.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938220000" remote="131067396800000000" Dst="2" />
+<file name="bootstrap.min.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938270000" remote="131067396810000000" Dst="2" />
+<file name="kendo.all.min.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914990460000" remote="131067397920000000" Dst="2" />
+<file name="pattern-lb.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025093732190000" remote="131067398270000000" Dst="2" />
+<file name="orders.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024278458460000" remote="131067398260000000" Dst="2" />
+<file name="products.js" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024262098980000" remote="131067398280000000" Dst="2" />
 </dwsync>

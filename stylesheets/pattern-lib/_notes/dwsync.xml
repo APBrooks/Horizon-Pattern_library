@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="_examples.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024241010978472" remote="131030330810000000" Dst="2" />
-<file name="_k-widgets.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024320718406706" remote="131030330810000000" Dst="2" />
-<file name="_mixins.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026406447" remote="131009537950000000" Dst="2" />
-<file name="_typography.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026856447" remote="131009537950000000" Dst="2" />
-<file name="_variables.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057039402682925" remote="131061411080000000" Dst="2" />
-<file name="_left-nav.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131009780632313085" remote="131012086800000000" Dst="2" />
-<file name="_top-nav.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131009729217427771" remote="131012086800000000" Dst="2" />
-<file name="_accordion.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025117455680470" remote="131030330810000000" Dst="2" />
-<file name="_assess-pane.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025216308285169" remote="131030330810000000" Dst="2" />
-<file name="_grid-system.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024232266698054" remote="131030330810000000" Dst="2" />
-<file name="_modal.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025165122449178" remote="131030330810000000" Dst="2" />
-<file name="_buttons.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057118484174384" remote="131061411080000000" Dst="2" />
-<file name="_popout--assess-pane.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057099611962042" remote="131061411080000000" Dst="2" />
+<file name="_examples.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024241010970000" remote="131067399430000000" Dst="2" />
+<file name="_k-widgets.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131066979027260000" remote="131067399430000000" Dst="2" />
+<file name="_mixins.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026400000" remote="131067399440000000" Dst="2" />
+<file name="_typography.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131066986209760000" remote="131067399440000000" Dst="2" />
+<file name="_variables.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131067397673656235" remote="131067399450000000" Dst="2" />
+<file name="_left-nav.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131063349304600000" remote="131067399440000000" Dst="2" />
+<file name="_top-nav.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131009729217420000" remote="131067399440000000" Dst="2" />
+<file name="_accordion.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131066946794560000" remote="131067399430000000" Dst="2" />
+<file name="_assess-pane.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131067007811070000" remote="131067399430000000" Dst="2" />
+<file name="_grid-system.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131024232266690000" remote="131067399430000000" Dst="2" />
+<file name="_modal.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131025165122440000" remote="131067399440000000" Dst="2" />
+<file name="_buttons.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131066952047520000" remote="131067399430000000" Dst="2" />
+<file name="_popout--assess-pane.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057099611960000" remote="131067399440000000" Dst="2" />
+<file name="stylesheets" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131061548221770000" remote="131067399420000000" Dst="2" />
 </dwsync>

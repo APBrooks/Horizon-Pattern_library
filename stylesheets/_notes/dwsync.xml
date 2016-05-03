@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="bootstrap_horizon.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026696447" remote="131009537940000000" Dst="2" />
-<file name="bootstrap_horizon.css.map" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915054686447" remote="131009537940000000" Dst="2" />
-<file name="bootstrap_horizon.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914990666447" remote="131009537940000000" Dst="2" />
-<file name="dreamweaver.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026146447" remote="131009537940000000" Dst="2" />
-<file name="github.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026186447" remote="131009537940000000" Dst="2" />
-<file name="pattern-lib.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057118634274384" remote="131061411080000000" Dst="2" />
-<file name="pattern-lib.css.map" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057118637174384" remote="131061411080000000" Dst="2" />
-<file name="pattern-lib.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131057118626264384" remote="131061411080000000" Dst="2" />
-<file name="_bootstrap-compass.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938986447" remote="131009537950000000" Dst="2" />
-<file name="_bootstrap-mincer.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939036447" remote="131009537950000000" Dst="2" />
-<file name="_bootstrap-sprockets.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939096447" remote="131009537950000000" Dst="2" />
-<file name="_bootstrap.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939146447" remote="131009537950000000" Dst="2" />
+<file name="bootstrap_horizon.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026690000" remote="131067398780000000" Dst="2" />
+<file name="bootstrap_horizon.css.map" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131063344773900000" remote="131067398830000000" Dst="2" />
+<file name="bootstrap_horizon.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914990660000" remote="131067398830000000" Dst="2" />
+<file name="dreamweaver.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026140000" remote="131067398840000000" Dst="2" />
+<file name="github.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008915026180000" remote="131067398970000000" Dst="2" />
+<file name="pattern-lib.css" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131067397685982221" remote="131067399480000000" Dst="2" />
+<file name="pattern-lib.css.map" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131067397690907615" remote="131067399500000000" Dst="2" />
+<file name="pattern-lib.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131066741213650000" remote="131067399500000000" Dst="2" />
+<file name="_bootstrap-compass.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914938980000" remote="131067399510000000" Dst="2" />
+<file name="_bootstrap-mincer.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939030000" remote="131067399510000000" Dst="2" />
+<file name="_bootstrap-sprockets.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939090000" remote="131067399510000000" Dst="2" />
+<file name="_bootstrap.scss" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131008914939140000" remote="131067399510000000" Dst="2" />
+<file name="stylesheets" server="10.1.22.153//var/www/html/uiuxintranetsite/uiuxdocs/pattern_library/" local="131061581013170000" remote="131067399500000000" Dst="2" />
 </dwsync>
