@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .container-fluid {
   color: #484848;
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   /*@media (min-width: 1200px) {
@@ -17,24 +17,24 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 300; }
 
 h1, .h1 {
-  font-size: 33px; }
+  font-size: 41px; }
 
 h2, .h2 {
-  font-size: 27px; }
+  font-size: 34px; }
 
 h3, .h3 {
-  font-size: 23px;
+  font-size: 28px;
   font-style: italic; }
 
 h4, .h4 {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400; }
 
 h5, .h5 {
-  font-size: 13px; }
+  font-size: 16px; }
 
 h6, .h6 {
-  font-size: 12px; }
+  font-size: 14px; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small,
@@ -267,6 +267,19 @@ a {
     margin-top: 10px; }
 .accordion-panel-group #headingOne {
   border-top: 5px solid #F0AB00; }
+
+.modal-dialog {
+  width: auto;
+  margin: 100px auto; }
+  .modal-dialog .modal-content {
+    border-top: solid 5px #F0AB00;
+    color: #fbfbfa;
+    background-color: #3f4344;
+    border-radius: 0px; }
+    .modal-dialog .modal-content .modal-title {
+      color: #fbfbfa; }
+    .modal-dialog .modal-content .modal-footer {
+      background-color: #343738; }
 
 .modal-warning .modal-header {
   border-bottom: none;
