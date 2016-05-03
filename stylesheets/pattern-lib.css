@@ -269,17 +269,29 @@ a {
   border-top: 5px solid #F0AB00; }
 
 .modal-dialog {
-  width: auto;
-  margin: 100px auto; }
+  width: 100%;
+  margin: 100px auto;
+  background-color: #3f4344;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: solid 5px #F0AB00; }
   .modal-dialog .modal-content {
-    border-top: solid 5px #F0AB00;
+    /*border-top: solid 5px $brand-primary;*/
     color: #fbfbfa;
     background-color: #3f4344;
-    border-radius: 0px; }
+    border-radius: 0px;
+    width: 600px;
+    margin: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none; }
     .modal-dialog .modal-content .modal-title {
       color: #fbfbfa; }
     .modal-dialog .modal-content .modal-footer {
       background-color: #343738; }
+  .modal-dialog .modal-footer-wrapper {
+    background-color: #343738; }
 
 .modal-warning .modal-header {
   border-bottom: none;

@@ -40,11 +40,15 @@ $section = 'ModalWarning';
                         <p>Asbestos records exist for this location</p>
                         <p>Please check the asbestos register</p>
                       </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Acknowledge</button>
-                        <button type="button" class="btn btn-default">Display</button>
-                      </div>
                     </div>
+                    <div class="modal-footer-wrapper">
+                      <div class="modal-content">
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Acknowledge</button>
+                          <button type="button" class="btn btn-default">Display</button>
+                        </div>
+                      </div>
+                    </div>                    
                   </div>
                 </div>  
               </div>

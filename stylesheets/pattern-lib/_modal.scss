@@ -1,12 +1,25 @@
 .modal-dialog {
-	width: auto;
+	width: 100%;
 	margin: 100px auto;
+	
+	background-color: $smoking;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: solid 5px $brand-primary;
+
 
 	.modal-content {
-		border-top: solid 5px $brand-primary;
+		/*border-top: solid 5px $brand-primary;*/
 		color: $wisp;
 		background-color: $smoking;
 		border-radius: 0px;
+		width:600px;
+		margin: auto;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+        border: none;
+
 
 		.modal-title {
 			color: $wisp;
@@ -15,6 +28,9 @@
 		.modal-footer {
 			background-color: $slated;
 		}
+	}
+	.modal-footer-wrapper {
+		background-color: $slated;
 	}
 }
 .modal-warning {
