@@ -102,7 +102,7 @@ $section = 'assess-pane';
                     <div class="assess-pane row">
                       <div class="pane-section col-md-12">
                         <h4>Warnings &amp; Advisories</h4>
-                        <span class="fa fa-warning"></span><span class="fa fa-bell-o"></span>
+                        <span class="fa fa-warning"></span><span class="fa fa-bell"></span>
                       </div>
                       <div class="pane-section col-md-12">
                         <h4>Location reference</h4>

@@ -2,7 +2,7 @@
 	color: $text-color;
 	font-size: $font-size-base;
 	font-family: $font-family;
-	/*font-weight: 300;*/
+	font-weight: 300;
 	/*@media (min-width: 1200px) {
 		width: 1020px;
 	}*/
@@ -27,7 +27,8 @@ h3, .h3 {
 	font-style: italic;
 }
 h4, .h4 {
-	font-size: $font-size-h4;		
+	font-size: $font-size-h4;
+	font-weight: 400;		
 }
 h5, .h5 {
 	font-size: $font-size-h5;		
@@ -46,4 +47,28 @@ h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
 }
 a {
 	color: $link-color;
+}
+
+.fa {
+	color: $icon-colour;
+}
+
+.fa-warning {
+	color: $rag-red;
+}
+
+.fa-bell {
+	color: $rag-amber;
+}
+
+.icon-group .fa-roundel {
+    font-style: normal;
+    color: white;
+    background-color: black;
+    padding: 0px 7px 1px;
+    border-radius: 12px;
+    margin-left: -13px;
+    margin-top: -13px;
+    font-size: 0.85em;
+    font-weight: bold;
 }

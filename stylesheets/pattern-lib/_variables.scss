@@ -4,7 +4,7 @@
 
 //== Font Family
 //
-$font-family:           "Lato","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family:           "Source Sans Pro","Helvetica Neue", Helvetica, Arial, sans-serif !default;
 //== Colors
 
 //== Horizon Colours from Styleguide
@@ -12,14 +12,20 @@ $font-family:           "Lato","Helvetica Neue", Helvetica, Arial, sans-serif !d
 $blackish:              #232525 !default;
 $slated:                #343738 !default;
 $smoking:               #3f4344 !default;
+$icon-colour:           #888888 !default;
 $foggiest:              #bbbbbb !default;
 $greydium:              #cccccc !default;
 $puffa:                 #e8e6e5 !default;
 $misty:                 #f3f3f2 !default;
 $wisp:                  #fbfbfa !default;
 
+// RAG values
+$rag-red:               #ed1c24 !default;
+$rag-amber:             #f7941d !default;
+$rag-green:             #39b54a !default;
+
 //
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-primary:         darken(#F0AB00, 6.5%) !default; // #428bca #337ab7  F0AB00
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
@@ -37,9 +43,18 @@ $text-color:              #484848 !default;
 //** Global textual link color.
 $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      darken($link-color, 12%) !default;  // TF update
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
+
+//** Link active color set via `darken()` function.
+$link-active-color:      darken($link-color, 15%) !default;  // TF update
+
+//** Link focus color set via `darken()` function.
+$link-focus-color:      darken($link-color, 18%) !default;  // TF update
+
+//** Link visited color set via `darken()` function.
+$link-visited-color:      darken($link-color, 6%) !default;  // TF update
 
 $font-size-base:          13px !default;
 $headings-color:          $text-color !default;
@@ -49,3 +64,5 @@ $font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+

@@ -120,7 +120,7 @@ $section = 'icons';
                 <div class="col-xs-12">
                   <div class="icon-group" style="margin-right:20px">
                     <span class="fa fa-warning"></span>
-                    <span>5</span>
+                    <sup><span class="fa-roundel">5</span></sup>
                   </div>
                 </div>
                </div>

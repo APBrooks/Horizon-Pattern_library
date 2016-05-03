@@ -2,20 +2,120 @@
 	margin-bottom: 10px;
 }
 
-// Grid hide vert scroll bars
-.k-grid .k-grid-header
-{
-   padding: 0 !important;
-}
+.k-grid {
+	// Grid hide vert scroll bars
+	.k-grid-header
+	{
+	   padding: 0 !important;
+	}
 
-.k-grid .k-grid-content
-{
-   overflow-y: visible;
+	.k-grid-content
+	{
+	   overflow-y: visible;
+	}
+
+	/* TF update */
+	.k-grid-header,
+	.k-grid-header th.k-header {
+		border-bottom-width: 0;
+	}
+
+	/* TF update */
+	.k-header,
+	.k-pager-wrap,
+	.k-pager-wrap .k-pager-refresh,
+	.k-pager-info.k-label {
+		background-color: $puffa;
+	}
+
+	/* TF update */
+	.k-pager-wrap .k-link,
+	.k-pager-numbers .k-state-selected {
+	    border: 1px solid $smoking;
+	    border-radius: 18px;
+	    margin-left: 3px;
+	}
+
+	/* TF update */
+	.k-pager-wrap .k-pager-numbers .k-state-selected {
+		background-color: $brand-primary;
+	    border-color: $brand-primary;
+	}
+
+	/* TF update */
+	.k-pager-wrap .k-link:link,
+	.k-state-default .k-link {
+		color: $brand-primary;
+	}
+
+	/* TF update */
+	.k-pager-refresh.k-link {
+		border: 0 solid $smoking;
+	}
+
+	/* TF update */
+	.k-icon {
+	    vertical-align: text-bottom;
+	}
+
+	/* TF update */
+	.k-alt {
+		background-color: $wisp;
+	}
+
+	/* TF update */
+	.k-widget {
+	    margin-bottom: 0;
+	}
+
+	/* TF update */
+	td {
+		font-weight: 300;
+	}
+
+	/* TF update */
+	.k-button {
+	    background-color: transparent;
+	    border-width: 0;
+	}
 }
+ 
 
 // Switch - disabled switch : hover
 .km-switch-disabled {
 	&:hover {
 		cursor: not-allowed;
 	}
+}
+
+.km-switch-on .km-switch-label-on {
+    color: $wisp; // TF update
+    background-color: $brand-primary; // TF update
+    border-color: $brand-primary; // TF update
+}
+
+.km-switch-wrapper,
+.km-switch-off .km-switch-label-off {
+    background-color: $foggiest; // TF update
+}
+
+.km-switch-background {
+	background-color: $brand-primary; // TF update
+}
+
+.k-multiselect {
+
+	.k-button {
+	    border-color: $brand-primary;
+	    background-color: $brand-primary;
+	}
+
+	.k-icon {
+	    vertical-align: text-bottom;
+	}
+}
+
+.k-multiselect-wrap li {
+    margin: 2px 0 2px 2px;
+    padding: .1em 1.6em .1em .6em;
 }

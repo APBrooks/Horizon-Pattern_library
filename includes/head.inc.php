@@ -19,8 +19,11 @@
     <!-- Bootstrap -->
     <link href="stylesheets/bootstrap_horizon.css" rel="stylesheet">   
 
-    <!-- Google font - Lato -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- Google font - Lato
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
+    
+    <!-- Google font - Source Sans Pro -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <!-- Code highlighting css theme -->
     <link href="stylesheets/github.css" rel="stylesheet">

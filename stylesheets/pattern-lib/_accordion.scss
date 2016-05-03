@@ -1,12 +1,32 @@
 // Accordion Title Icon bubble
 .accordion-panel-group {
+	.panel {
+        border-radius: 0; // TF update: should maybe move to {.panel-group .panel scss} file
+    }
+    .panel + .panel {
+      margin-top: 18px; // TF update: should maybe move to {.panel-group .panel scss} file 
+    }
 	.panel-heading {
-		padding: 6px 15px;
+	    background-color: $misty; // // TF update: should maybe move to {.panel-group .panel scss} file 
+		padding: 6px 12px; // TF update
+		border-top-right-radius: 0; // TF update
+  		border-top-left-radius: 0; // TF update
 	}
+	.panel-heading + .panel-collapse > .panel-body,
+    .panel-heading + .panel-collapse > .list-group {
+      background-color: $misty; // TF update: should maybe move to {.panel-group .panel scss} file 
+    }
+
 	.panel-title {
 		a {
-			line-height: 24px;
+			line-height: 22px; // TF update
+
+			.fa-check:before {
+			color: #fff; // TF update
+			line-height: 24px; // TF update
+		    }
 		}
+
 		.icon-container {
 			display: inline-block;
 			width: 24px;
@@ -20,15 +40,25 @@
 				background-color: $brand-primary;
 			}
 			&.icon-container-default {
-			    color: #333;
-			    background-color: #fff;
-			    border: solid 1px #ccc;
+			    color: #fff;
+			    background-color: $icon-colour; // TF update
+			    border: solid 0 #ccc; // TF update
 			}
 		}
 	}
+
+		.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	    border-top-color: $misty;
+	}
+
 	.panel-body {
+		padding: 3px 12px 18px; // TF update
 		.btn {
 			margin-top: 10px;
 		}
+	}
+
+    #headingOne  {
+    border-top: 5px solid $brand-primary; // TF update
 	}
 }
