@@ -32,6 +32,11 @@ $section = 'Datetime';
                         <input id="datetimepicker" style="width: 100%;" />
                     </div>
                   </div>
+                  <div class="col-xs-12">
+                    <img src="images/components_pickers_date.png" style="width:500px">
+                    <br>
+                    <small>Style it to look like this I reckon.</small>
+                  </div>
                 </div>
                 
               </div>

@@ -7,6 +7,9 @@
 	<div class="list-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<a href="index.php" class="list-group-item <?php if ($section == "grid") { echo "active";} ?>">Grid System</a>
 		<a href="accordion.php" class="list-group-item <?php if ($section == "accordion") { echo "active";} ?>">Accordion</a>
+		<a href="icons.php" class="list-group-item <?php if ($section == "icons") { echo "active";} ?>">Icons</a>
+		<a href="breadcrumbs.php" class="list-group-item <?php if ($section == "breadcrumbs") { echo "active";} ?>">Breadcrumbs</a>
+		<a href="progress-bar.php" class="list-group-item <?php if ($section == "progress-bar") { echo "active";} ?>">Progress Bars</a>
 
 		<a role="button" class="list-group-item closed" data-toggle="collapse" data-parent="#accordion" href="#collapseForms" aria-expanded="false" aria-controls="collapseForms">
           Form Elements <span class="fa fa-angle-right fa-pull-right"></span>
@@ -39,7 +42,9 @@
 		<div id="collapseModals" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 			  
 			  <a href="modal-warning.php" class="list-group-item <?php if ($section == "ModalWarning") { echo "active";} ?>">* Warning modal</a>
+			  <a href="modal-progress.php" class="list-group-item <?php if ($section == "ModalProgress") { echo "active";} ?>">* Progress modal</a>
 	    </div>
+	    <a href="error-message.php" class="list-group-item <?php if ($section == "error-message") { echo "active";} ?>">Error messaging</a>
 
 	    <a href="assess-pane.php" class="list-group-item <?php if ($section == "assess-pane") { echo "active";} ?>">Assess Pane</a>
 	    <a href="warn-attr_popout.php" class="list-group-item <?php if ($section == "warn-attr") { echo "active";} ?>">Warning/Advisories Popout</a>

@@ -1,5 +1,5 @@
 <?php
-$section = 'buttons';
+$section = 'breadcrumbs';
 ?>
 <?php include 'includes/head.inc.php'; ?>
 
@@ -18,24 +18,21 @@ $section = 'buttons';
         <div class="col-md-9">
           <div class="row">
             <div class="col-md-6">
-              <h1>Buttons</h1>
-              <h3>Primary action</h3>
+              <h1>Breadcrumbs</h1>
+              <h3>Basic usage</h3>
               <!-- Kendo MultiSelect -->
               <div class="example">
-                <div class="btn btn-primary">Primary</div>
-                   
-              </div>
-              <h3>Secondary action</h3>
-              <!-- Kendo MultiSelect -->
-              <div class="example">
-                <div class="btn btn-default">Secondary</div>
-                   
-              </div>
-              <h3>Button with icon</h3>
-              <!-- Kendo MultiSelect -->
-              <div class="example">
-                <div class="btn btn-default"><span class="fa fa-building"></span> Block</div>
-                   
+               <div class="row">
+                <div class="col-xs-12">
+                  <ol class="breadcrumb">
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Job management</a></li>
+                    <li><a href="#">Location search</a></li>
+                    <li><a href="#">Job assessment</a></li>
+                    <li class="active">Log job</li>
+                  </ol>
+                </div>
+               </div>
               </div>
             </div>
           </div>

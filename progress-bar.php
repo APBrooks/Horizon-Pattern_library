@@ -1,5 +1,5 @@
 <?php
-$section = 'buttons';
+$section = 'progress-bar';
 ?>
 <?php include 'includes/head.inc.php'; ?>
 
@@ -18,24 +18,19 @@ $section = 'buttons';
         <div class="col-md-9">
           <div class="row">
             <div class="col-md-6">
-              <h1>Buttons</h1>
-              <h3>Primary action</h3>
+              <h1>Progress Bars</h1>
+              <h3>Basic usage</h3>
               <!-- Kendo MultiSelect -->
               <div class="example">
-                <div class="btn btn-primary">Primary</div>
-                   
-              </div>
-              <h3>Secondary action</h3>
-              <!-- Kendo MultiSelect -->
-              <div class="example">
-                <div class="btn btn-default">Secondary</div>
-                   
-              </div>
-              <h3>Button with icon</h3>
-              <!-- Kendo MultiSelect -->
-              <div class="example">
-                <div class="btn btn-default"><span class="fa fa-building"></span> Block</div>
-                   
+               <div class="row">
+                <div class="col-xs-12">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                      <span class="sr-only">45% Complete</span>
+                    </div>
+                  </div>
+                </div>
+               </div>
               </div>
             </div>
           </div>
