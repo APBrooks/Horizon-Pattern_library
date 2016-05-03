@@ -17,7 +17,7 @@ $section = 'icons';
         <!-- MAIN CONTENT -->
         <div class="col-md-9">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
               <h1>Icons</h1>
               <h3>Basic usage</h3>
               <!-- Kendo MultiSelect -->

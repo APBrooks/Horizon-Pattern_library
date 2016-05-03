@@ -1,3 +1,22 @@
+.modal-dialog {
+	width: auto;
+	margin: 100px auto;
+
+	.modal-content {
+		border-top: solid 5px $brand-primary;
+		color: $wisp;
+		background-color: $smoking;
+		border-radius: 0px;
+
+		.modal-title {
+			color: $wisp;
+		}
+
+		.modal-footer {
+			background-color: $slated;
+		}
+	}
+}
 .modal-warning {
 	.modal-header {
 		border-bottom: none;
