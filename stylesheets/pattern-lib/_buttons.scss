@@ -12,8 +12,8 @@
 .btn-primary,
 .k-primary {
     color: $wisp; // TF update
-    background-color: $brand-primary; // TF update
-    border-color: $brand-primary; // TF update
+    background-color: $rag-green; // AB update 2016-05-03
+    border-color: $rag-green; // AB update 2016-05-03
 }
 
 .km-switch-handle {color: $brand-primary;} // TF update
@@ -23,8 +23,8 @@
 .k-primary:hover, 
 .k-primary.hover,
 .open > .btn-primary.dropdown-toggle {
-	background-color: $link-hover-color; // TF update
-	border-color: $link-hover-color; // TF update
+	background-color: darken($rag-green, 15%); // AB update 2016-05-03
+	border-color: darken($rag-green, 15%); // AB update 2016-05-03
 }
 
 .btn-primary:active, 
