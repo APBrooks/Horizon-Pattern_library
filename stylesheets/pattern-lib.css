@@ -46,7 +46,7 @@ h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
   color: #000; }
 
 a {
-  color: #cf9300; }
+  color: #F0AB00; }
 
 .fa {
   color: #888888; }
@@ -141,11 +141,11 @@ a {
     border-radius: 18px;
     margin-left: 3px; }
   .k-grid .k-pager-wrap .k-pager-numbers .k-state-selected {
-    background-color: #cf9300;
-    border-color: #cf9300; }
+    background-color: #F0AB00;
+    border-color: #F0AB00; }
   .k-grid .k-pager-wrap .k-link:link,
   .k-grid .k-state-default .k-link {
-    color: #cf9300; }
+    color: #F0AB00; }
   .k-grid .k-pager-refresh.k-link {
     border: 0 solid #3f4344; }
   .k-grid .k-icon {
@@ -165,19 +165,19 @@ a {
 
 .km-switch-on .km-switch-label-on {
   color: #fbfbfa;
-  background-color: #cf9300;
-  border-color: #cf9300; }
+  background-color: #F0AB00;
+  border-color: #F0AB00; }
 
 .km-switch-wrapper,
 .km-switch-off .km-switch-label-off {
   background-color: #bbbbbb; }
 
 .km-switch-background {
-  background-color: #cf9300; }
+  background-color: #F0AB00; }
 
 .k-multiselect .k-button {
-  border-color: #cf9300;
-  background-color: #cf9300; }
+  border-color: #F0AB00;
+  background-color: #F0AB00; }
 .k-multiselect .k-icon {
   vertical-align: text-bottom; }
 
@@ -220,7 +220,7 @@ a {
   background-color: #5bc0de; }
   .demo-grid .grid-content {
     height: 65px;
-    background-color: #cf9300;
+    background-color: #F0AB00;
     text-align: center;
     color: #fff;
     font-size: 16px;
@@ -253,7 +253,7 @@ a {
   text-align: center; }
   .accordion-panel-group .panel-title .icon-container.icon-container-primary {
     color: #fff;
-    background-color: #cf9300; }
+    background-color: #F0AB00; }
   .accordion-panel-group .panel-title .icon-container.icon-container-default {
     color: #fff;
     background-color: #888888;
@@ -265,7 +265,7 @@ a {
   .accordion-panel-group .panel-body .btn {
     margin-top: 10px; }
 .accordion-panel-group #headingOne {
-  border-top: 5px solid #cf9300; }
+  border-top: 5px solid #F0AB00; }
 
 .modal-warning .modal-header {
   border-bottom: none;
@@ -293,40 +293,40 @@ a {
 .btn-primary,
 .k-primary {
   color: #fbfbfa;
-  background-color: #cf9300;
-  border-color: #cf9300; }
+  background-color: #F0AB00;
+  border-color: #F0AB00; }
 
 .km-switch-handle {
-  color: #cf9300; }
+  color: #F0AB00; }
 
 .btn-primary:hover,
 .btn-primary.hover,
 .k-primary:hover,
 .k-primary.hover,
 .open > .btn-primary.dropdown-toggle {
-  background-color: #926800;
-  border-color: #926800; }
+  background-color: #b37f00;
+  border-color: #b37f00; }
 
 .btn-primary:active,
 .btn-primary.active,
 .k-primary:active,
 .k-primary.active {
-  background-color: #825d00;
-  border-color: #825d00; }
+  background-color: #a37400;
+  border-color: #a37400; }
 
 .btn-primary:focus,
 .btn-primary.focus,
 .k-primary:focus,
 .k-primary.focus {
-  background-color: #735200;
-  border-color: #735200; }
+  background-color: #946a00;
+  border-color: #946a00; }
 
 .btn-primary:visited,
 .btn-primary.visited,
 .k-primary:visited,
 .k-primary.visited {
-  background-color: #b07e00;
-  border-color: #b07e00; }
+  background-color: #d19500;
+  border-color: #d19500; }
 
 .assess-pane {
   background-color: #fbfbfa;
