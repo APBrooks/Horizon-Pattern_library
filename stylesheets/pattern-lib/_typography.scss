@@ -53,22 +53,21 @@ a {
 	color: $icon-colour;
 }
 
-.fa-warning {
-	color: $rag-red;
-}
-
-.fa-bell {
-	color: $rag-amber;
-}
-
 .icon-group .fa-roundel {
     font-style: normal;
     color: white;
     background-color: black;
-    padding: 0px 7px 1px;
+    padding: 0px 6px 1px;
     border-radius: 12px;
     margin-left: -13px;
-    margin-top: -13px;
     font-size: 0.85em;
     font-weight: bold;
+}
+
+.icon-group .fa-roundel.fa-warning-roundel {
+	background-color: $rag-red;
+}
+
+.icon-group .fa-roundel.fa-advisory-roundel {
+	background-color: $rag-amber;
 }

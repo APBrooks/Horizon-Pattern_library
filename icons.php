@@ -118,9 +118,11 @@ $section = 'icons';
               <div class="example">
                <div class="row" style="font-size:24px; margin-bottom:10px;">
                 <div class="col-xs-12">
-                  <div class="icon-group" style="margin-right:20px">
+                  <div class="icon-group pull-left" style="margin-right:20px">
                     <span class="fa fa-warning"></span>
-                    <sup><span class="fa-roundel">5</span></sup>
+                    <sup><span class="fa-roundel fa-warning-roundel">1</span></sup>
+                    <span class="fa fa-bell"></span>
+                    <sup><span class="fa-roundel fa-advisory-roundel">2</span></sup>
                   </div>
                 </div>
                </div>
