@@ -1,0 +1,54 @@
+
+.btn,
+.k-button {
+    border-radius: 30px; // TF update
+    padding: 3px 18px 4px; // TF update
+
+    .fa {
+    	padding: 0px 3px;
+	}
+}
+
+.btn-primary,
+.k-primary {
+    color: $wisp; // TF update
+    background-color: $rag-green; // AB update 2016-05-03
+    border-color: $rag-green; // AB update 2016-05-03
+}
+
+.km-switch-handle {color: $brand-primary;} // TF update
+
+.btn-primary:hover, 
+.btn-primary.hover,
+.k-primary:hover, 
+.k-primary.hover,
+.open > .btn-primary.dropdown-toggle {
+	background-color: darken($rag-green, 15%); // AB update 2016-05-03
+	border-color: darken($rag-green, 15%); // AB update 2016-05-03
+}
+
+.btn-primary:active, 
+.btn-primary.active,
+.k-primary:active, 
+.k-primary.active  {
+	background-color: $link-active-color; // TF update
+	border-color: $link-active-color; // TF update
+}
+
+.btn-primary:focus, 
+.btn-primary.focus,
+.k-primary:focus, 
+.k-primary.focus {
+	background-color: $link-focus-color; // TF update
+	border-color: $link-focus-color; // TF update
+}
+
+.btn-primary:visited, 
+.btn-primary.visited,
+.k-primary:visited, 
+.k-primary.visited {
+	background-color: $link-visited-color; // TF update
+	border-color: $link-visited-color; // TF update
+}
+
+
